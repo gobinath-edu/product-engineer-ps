@@ -1,0 +1,184 @@
+[
+  {
+    "id": "q01",
+    "query": "Where do I live?",
+    "subject": "user-001",
+    "expected_include": ["user-001.residence=chennai"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q02",
+    "query": "What city do I live in?",
+    "subject": "user-001",
+    "expected_include": ["user-001.city=mumbai"],
+    "expected_exclude": [
+      "user-001.city=bengaluru",
+      "user-001.city=hyderabad",
+      "user-001.city=pune"
+    ]
+  },
+  {
+    "id": "q03",
+    "query": "Where am I currently located?",
+    "subject": "user-001",
+    "expected_include": ["user-001.city=mumbai"],
+    "expected_exclude": [
+      "user-001.city=bengaluru",
+      "user-001.city=hyderabad",
+      "user-001.city=pune"
+    ]
+  },
+  {
+    "id": "q04",
+    "query": "Where did I live before?",
+    "subject": "user-001",
+    "expected_include": [],
+    "expected_exclude": [
+      "user-001.city=bengaluru",
+      "user-001.city=hyderabad",
+      "user-001.city=pune"
+    ]
+  },
+  {
+    "id": "q05",
+    "query": "Where do I work?",
+    "subject": "user-001",
+    "expected_include": ["user-001.employer=cloudlabs"],
+    "expected_exclude": ["user-001.employer=dataworks"]
+  },
+  {
+    "id": "q06",
+    "query": "What company am I currently working for?",
+    "subject": "user-001",
+    "expected_include": ["user-001.employer=cloudlabs"],
+    "expected_exclude": ["user-001.employer=technova", "user-001.employer=dataworks"]
+  },
+  {
+    "id": "q07",
+    "query": "What is my current job title?",
+    "subject": "user-001",
+    "expected_include": ["user-001.job_title=ml engineer"],
+    "expected_exclude": ["user-001.job_title=data scientist"]
+  },
+  {
+    "id": "q08",
+    "query": "What programming languages do I know?",
+    "subject": "user-001",
+    "expected_include": [
+      "user-001.skill=python",
+      "user-001.skill=java"
+    ],
+    "expected_exclude": []
+  },
+  {
+    "id": "q09",
+    "query": "Do I know SQL?",
+    "subject": "user-001",
+    "expected_include": ["user-001.skill=sql"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q10",
+    "query": "What machine learning skills do I have?",
+    "subject": "user-001",
+    "expected_include": [
+      "user-001.skill=machine learning"
+    ],
+    "expected_exclude": []
+  },
+  {
+    "id": "q11",
+    "query": "Do I know Spring Boot?",
+    "subject": "user-001",
+    "expected_include": ["user-001.skill=spring boot"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q12",
+    "query": "Do I know Flutter?",
+    "subject": "user-001",
+    "expected_include": ["user-001.skill=flutter"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q13",
+    "query": "What languages can I speak?",
+    "subject": "user-001",
+    "expected_include": [
+      "user-001.language=english",
+      "user-001.language=tamil",
+      "user-001.language=hindi"
+    ],
+    "expected_exclude": []
+  },
+  {
+    "id": "q14",
+    "query": "What am I interested in?",
+    "subject": "user-001",
+    "expected_include": [
+      "user-001.interest=artificial intelligence",
+      "user-001.interest=data science"
+    ],
+    "expected_exclude": []
+  },
+  {
+    "id": "q15",
+    "query": "Am I interested in cybersecurity?",
+    "subject": "user-001",
+    "expected_include": ["user-001.interest=cybersecurity"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q16",
+    "query": "What is my favorite color?",
+    "subject": "user-001",
+    "expected_include": ["user-001.favorite_color=green"],
+    "expected_exclude": ["user-001.favorite_color=blue"]
+  },
+  {
+    "id": "q17",
+    "query": "What is my phone number?",
+    "subject": "user-001",
+    "expected_include": ["user-001.phone=5550102"],
+    "expected_exclude": ["user-001.phone=5550101"]
+  },
+  {
+    "id": "q18",
+    "query": "What is my blood group?",
+    "subject": "user-001",
+    "expected_include": ["user-001.blood_group=o+"],
+    "expected_exclude": ["user-001.blood_group=a+"]
+  },
+  {
+    "id": "q19",
+    "query": "Where does user 2 live?",
+    "subject": "user-002",
+    "expected_include": ["user-002.residence=coimbatore"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q20",
+    "query": "What skills does user 2 have?",
+    "subject": "user-002",
+    "expected_include": ["user-002.skill=python"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q21",
+    "query": "What is user 2 interested in?",
+    "subject": "user-002",
+    "expected_include": ["user-002.interest=robotics"],
+    "expected_exclude": []
+  },
+  {
+    "id": "q22",
+    "query": "What city did I move to most recently?",
+    "subject": "user-001",
+    "expected_include": ["user-001.city=mumbai"],
+    "expected_exclude": [
+      "user-001.city=bengaluru",
+      "user-001.city=hyderabad",
+      "user-001.city=pune"
+    ]
+  }
+]

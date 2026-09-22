@@ -1,0 +1,326 @@
+[
+  {
+    "id": "mem-001",
+    "subject": "user-001",
+    "predicate": "residence",
+    "object_value": "Chennai",
+    "content": "I live in Chennai.",
+    "source_id": "fixture-msg-001",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-002",
+    "subject": "user-001",
+    "predicate": "employer",
+    "object_value": "TechNova",
+    "content": "I work at TechNova.",
+    "source_id": "fixture-msg-002",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-003",
+    "subject": "user-001",
+    "predicate": "job_title",
+    "object_value": "Data Scientist",
+    "content": "My job title is Data Scientist.",
+    "source_id": "fixture-msg-003",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-004",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "Python",
+    "content": "I know Python.",
+    "source_id": "fixture-msg-004",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-005",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "SQL",
+    "content": "I know SQL.",
+    "source_id": "fixture-msg-005",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-006",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "Machine Learning",
+    "content": "I work with Machine Learning.",
+    "source_id": "fixture-msg-006",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-007",
+    "subject": "user-001",
+    "predicate": "language",
+    "object_value": "English",
+    "content": "I speak English.",
+    "source_id": "fixture-msg-007",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-008",
+    "subject": "user-001",
+    "predicate": "language",
+    "object_value": "Tamil",
+    "content": "I speak Tamil.",
+    "source_id": "fixture-msg-008",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-009",
+    "subject": "user-001",
+    "predicate": "interest",
+    "object_value": "Artificial Intelligence",
+    "content": "I am interested in Artificial Intelligence.",
+    "source_id": "fixture-msg-009",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-010",
+    "subject": "user-001",
+    "predicate": "interest",
+    "object_value": "Data Science",
+    "content": "I am interested in Data Science.",
+    "source_id": "fixture-msg-010",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-011",
+    "subject": "user-001",
+    "predicate": "city",
+    "object_value": "Bengaluru",
+    "content": "I live in Bengaluru now.",
+    "source_id": "fixture-msg-011",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-012",
+    "subject": "user-001",
+    "predicate": "city",
+    "object_value": "Hyderabad",
+    "content": "Correction: I moved to Hyderabad.",
+    "source_id": "fixture-msg-012",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-013",
+    "subject": "user-001",
+    "predicate": "city",
+    "object_value": "Pune",
+    "content": "Correction: I moved to Pune.",
+    "source_id": "fixture-msg-013",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-014",
+    "subject": "user-001",
+    "predicate": "city",
+    "object_value": "Mumbai",
+    "content": "Correction: I moved to Mumbai.",
+    "source_id": "fixture-msg-014",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-015",
+    "subject": "user-001",
+    "predicate": "employer",
+    "object_value": "DataWorks",
+    "content": "Correction: My employer is now DataWorks.",
+    "source_id": "fixture-msg-015",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-016",
+    "subject": "user-001",
+    "predicate": "employer",
+    "object_value": "CloudLabs",
+    "content": "Correction: I work at CloudLabs now.",
+    "source_id": "fixture-msg-016",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-017",
+    "subject": "user-001",
+    "predicate": "job_title",
+    "object_value": "ML Engineer",
+    "content": "Correction: my job title is ML Engineer.",
+    "source_id": "fixture-msg-017",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-018",
+    "subject": "user-001",
+    "predicate": "favorite_color",
+    "object_value": "Blue",
+    "content": "My favorite color is blue.",
+    "source_id": "fixture-msg-018",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-019",
+    "subject": "user-001",
+    "predicate": "favorite_color",
+    "object_value": "Green",
+    "content": "Correction: my favorite color is green.",
+    "source_id": "fixture-msg-019",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-020",
+    "subject": "user-001",
+    "predicate": "phone",
+    "object_value": "5550101",
+    "content": "My phone number is 5550101.",
+    "source_id": "fixture-msg-020",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-021",
+    "subject": "user-001",
+    "predicate": "phone",
+    "object_value": "5550102",
+    "content": "Correction: my phone number is 5550102.",
+    "source_id": "fixture-msg-021",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-022",
+    "subject": "user-001",
+    "predicate": "blood_group",
+    "object_value": "O+",
+    "content": "My blood group is O positive.",
+    "source_id": "fixture-msg-022",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-023",
+    "subject": "user-001",
+    "predicate": "blood_group",
+    "object_value": "A+",
+    "content": "I think my blood group might be A positive.",
+    "source_id": "fixture-msg-023",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-024",
+    "subject": "user-001",
+    "predicate": "residence",
+    "object_value": "Chennai",
+    "content": "Maybe I live in Chennai.",
+    "source_id": "fixture-msg-024",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-025",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "Java",
+    "content": "I also know Java.",
+    "source_id": "fixture-msg-025",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-026",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "Spring Boot",
+    "content": "I use Spring Boot.",
+    "source_id": "fixture-msg-026",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-027",
+    "subject": "user-001",
+    "predicate": "skill",
+    "object_value": "Flutter",
+    "content": "I build applications with Flutter.",
+    "source_id": "fixture-msg-027",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-028",
+    "subject": "user-001",
+    "predicate": "interest",
+    "object_value": "Cybersecurity",
+    "content": "I am interested in cybersecurity.",
+    "source_id": "fixture-msg-028",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-029",
+    "subject": "user-001",
+    "predicate": "interest",
+    "object_value": "Cloud Computing",
+    "content": "I am interested in cloud computing.",
+    "source_id": "fixture-msg-029",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-030",
+    "subject": "user-001",
+    "predicate": "language",
+    "object_value": "Hindi",
+    "content": "I can speak Hindi.",
+    "source_id": "fixture-msg-030",
+    "source_type": "fixture"
+  },
+
+  {
+    "id": "mem-031",
+    "subject": "user-001",
+    "predicate": "employer",
+    "object_value": "AI Labs",
+    "content": "Maybe I will join AI Labs.",
+    "source_id": "fixture-msg-031",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-032",
+    "subject": "user-001",
+    "predicate": "job_title",
+    "object_value": "Data Engineer",
+    "content": "I might become a Data Engineer.",
+    "source_id": "fixture-msg-032",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-033",
+    "subject": "user-002",
+    "predicate": "residence",
+    "object_value": "Coimbatore",
+    "content": "User 2 lives in Coimbatore.",
+    "source_id": "fixture-msg-033",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-034",
+    "subject": "user-002",
+    "predicate": "skill",
+    "object_value": "Python",
+    "content": "User 2 knows Python.",
+    "source_id": "fixture-msg-034",
+    "source_type": "fixture"
+  },
+  {
+    "id": "mem-035",
+    "subject": "user-002",
+    "predicate": "interest",
+    "object_value": "Robotics",
+    "content": "User 2 is interested in robotics.",
+    "source_id": "fixture-msg-035",
+    "source_type": "fixture"
+  }
+]

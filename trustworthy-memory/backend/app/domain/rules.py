@@ -110,6 +110,15 @@ EXPLICIT_CORRECTION_CUES = (
     "change my",
     "moved to",
     "now live in",
+    "now work at",
+    "work at now",
+    "working at now",
+    "my current company is",
+    "my current employer is",
+    "my job title is now",
+    "my new job title is",
+    "my new company is",
+    "my new employer is",
     "no longer",
 )
 
