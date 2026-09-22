@@ -223,3 +223,27 @@ def test_delete_removes_memory_from_active_results():
 
     assert len(history) == 1
     assert history[0].state == MemoryState.DELETED
+    def test_memory_preserves_source_provenance():"""
+    Stored memories must retain the provenance information
+    needed to trace them back to their originating source.
+    """
+
+    db = create_test_session()
+    service = MemoryService(db)
+
+    memory = service.create_memory(
+        subject="user_1",
+        predicate="residence",
+        object_value="Pune",
+        content="I live in Pune.",
+        source_id="msg-001",
+    )
+
+    db.commit()
+
+    stored = service.get_memory(memory.id)
+
+    assert stored.source_id == "msg-001"
+    assert stored.source_type == "message"
+    assert stored.created_at is not None
+    assert stored.updated_at is not None
